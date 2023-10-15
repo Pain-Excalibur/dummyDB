@@ -1,0 +1,29 @@
+{
+  "name": "Book",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "Guid"
+    },
+    {
+      "name": "Creator",
+      "type": "string"      
+    },
+    {
+      "name": "Title",
+      "type": "string"
+    },
+    {
+      "name": "ReleaseDate",
+      "type": "DateOnly"
+    },
+    {
+      "name": "BookShelf",
+      "type": "int"
+    },
+    {
+      "name": "Shelf",
+      "type": "int"
+    }
+  ]
+}

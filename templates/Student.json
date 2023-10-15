@@ -1,0 +1,21 @@
+{
+  "name": "Student",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "Guid"
+    },
+    {
+      "name": "Name",
+      "type": "string"      
+    },
+    {
+      "name": "Surname",
+      "type": "string"
+    },
+    {
+      "name": "FathersName",
+      "type": "DateOnly"
+    }
+  ]
+}

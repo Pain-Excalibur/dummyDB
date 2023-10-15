@@ -1,0 +1,25 @@
+{
+  "name": "Record",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "Guid"
+    },
+    {
+      "name": "Student",
+      "type": "Guid"      
+    },
+    {
+      "name": "Book",
+      "type": "Guid"
+    },
+    {
+      "name": "BorrowDate",
+      "type": "DateOnly"
+    },
+    {
+      "name": "ReturnDate",
+      "type": "DateOnly"
+    }
+  ]
+}
