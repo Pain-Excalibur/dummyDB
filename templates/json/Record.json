@@ -3,15 +3,15 @@
   "columns": [
     {
       "name": "Id",
-      "type": "Guid"
+      "type": "uint"
     },
     {
       "name": "Student",
-      "type": "Guid"      
+      "type": "uint"      
     },
     {
       "name": "Book",
-      "type": "Guid"
+      "type": "uint"
     },
     {
       "name": "BorrowDate",

@@ -3,7 +3,7 @@
   "columns": [
     {
       "name": "Id",
-      "type": "Guid"
+      "type": "uint"
     },
     {
       "name": "Creator",
@@ -19,11 +19,11 @@
     },
     {
       "name": "BookShelf",
-      "type": "int"
+      "type": "ushort"
     },
     {
       "name": "Shelf",
-      "type": "int"
+      "type": "ushort"
     }
   ]
 }
