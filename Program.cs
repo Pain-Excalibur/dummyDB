@@ -12,6 +12,7 @@ namespace dummyDB
             List<Book> books = Parser.Book(@"../../../data/Books.csv");
             List<Student> students = Parser.Student(@"../../../data/Students.csv");
             List<Record> records = Parser.Record(@"../../../data/Records.csv");
+
             foreach (Book book in books)
             {
                 Console.Write("Название книги: " + book.Title);
